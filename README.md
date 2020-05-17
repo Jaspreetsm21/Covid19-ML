@@ -23,7 +23,10 @@ Step 2 : Create a new Table
 
 Step 3 : Insert values into the table
 
-# EDA 
+**Proteinal Next Step** could be to setup the ETL pipeline on AWS to extract the data daily - I will not be doing that step for this project.
+
+# EDA - Python
+
 
 
 # Tabelau 

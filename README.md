@@ -44,6 +44,8 @@ After Extracting the data, I needed to clean it up so that it was usable for Ana
 
 This second part of the project was to create a Dashboard on Tabelau, which allows users to interact with the Dashboard and take information for themself.
 
+![](worldmap.gif)
+
 
 ![](image/Tab-02.PNG)
 

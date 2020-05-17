@@ -25,9 +25,9 @@ Step 3 : Insert values into the table
 
 **Proteinal Next Step** could be to setup the ETL pipeline on AWS to extract the data daily - I will not be doing that step for this project.
 
-![](image/Setup_oracle.PNG)
+![](image/Setup_oracle.png)
 
-![](image/SQL_Table.PNG)
+![](image/SQL_Table.png)
 
 
 # EDA - Python
@@ -45,6 +45,11 @@ After Extracting the data, I needed to clean it up so that it was usable for Ana
 This second part of the project was to create a Dashboard on Tabelau, which allows users to interact with the Dashboard and take information for themself.
 
 
+![](image/Tab-02.PNG)
+
+![](image/Tab-01.PNG)
 
 
+Link 1 - https://public.tableau.com/profile/jas2719#!/vizhome/WorldCovid19_15897354026970/Dashboard1
 
+Link 2 - https://public.tableau.com/profile/jas2719#!/vizhome/WorldCovid19_15897354026970/Dashboard2

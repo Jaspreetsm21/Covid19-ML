@@ -27,6 +27,19 @@ Step 3 : Insert values into the table
 
 # EDA - Python
 
+After Extracting the data, I needed to clean it up so that it was usable for Analysis. I made the following changes and created the following variables:
+
+- Transformed founded ISO date to Standard dates 
+
+- Added new column for daily confirm,active,recovery and death cases. 
 
 
-# Tabelau 
+
+# Tabelau (Public)
+
+This second part of the project was to create a Dashboard on Tabelau, which allows users to interact with the Dashboard and take information for themself.
+
+
+
+
+

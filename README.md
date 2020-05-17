@@ -25,6 +25,11 @@ Step 3 : Insert values into the table
 
 **Proteinal Next Step** could be to setup the ETL pipeline on AWS to extract the data daily - I will not be doing that step for this project.
 
+![](image/Setup_oracle.PNG)
+
+![](image/SQL_Table.PNG)
+
+
 # EDA - Python
 
 After Extracting the data, I needed to clean it up so that it was usable for Analysis. I made the following changes and created the following variables:

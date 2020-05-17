@@ -18,7 +18,9 @@ For the Tabelau Dashboard, I wanted to Load the DataFrame onto Oracle SQL as mos
 Packages: Pandas and cx_Oracle
 
 Step 1 : Make connection with Oracle SQL
+
 Step 2 : Create a new Table
+
 Step 3 : Insert values into the table
 
 # EDA 

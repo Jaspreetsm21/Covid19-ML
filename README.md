@@ -36,9 +36,9 @@ After Extracting the data, I needed to clean it up so that it was usable for Ana
 
 - Added new column for daily confirm,active,recovery and death cases. 
 
-![](image/EDA-1.PNG) ![](image/EDA-2.PNG)
+![](image/EDA-1.PNG) 
 
-
+![](image/EDA-2.PNG)
 
 ![](image/EDA-3.PNG)
 

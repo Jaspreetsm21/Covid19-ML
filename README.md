@@ -1,7 +1,15 @@
 # Data Science Covid 19 Analysis: Project Overview
 This Project Extract the data from API to Analysis and Predict Corona virus Cases around the world.
 
-# Python REST API to Extract the data 
+1 - Extracting the data using **Rest API** method  
+
+2 - Load the data on to **Oracle SQL**, which allows data to connect with Tableau server. 
+
+3 - Carried out **EDA** on covid cases and found some meaningful insights.
+
+4 - Created a **Dashboard** inside **Tableau** that allows users to explore the covid cases around the world.
+
+# 1. Python REST API to Extract the data 
 
 Python Version: 3.7
 
@@ -9,11 +17,11 @@ Packages: pandas, requests, datetime and json
 
 Data/API Source -  https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest
 
-I was able to connect through API using the requests library without any authentication and used json library to convert the data into DataFrame. 
+I was able to connect through API using the requests library without any authentication and then used json library to convert the data into DataFrame. 
 
-# Oracle SQL (ETL)
+#  2. Oracle SQL (ETL)
 
-For the Tabelau Dashboard, I wanted to Load the DataFrame onto Oracle SQL as most of the project at my job start with manpuilate the data inside SQL.
+For the Tableau Dashboard, I was able to load the DataFrame onto Oracle SQL as most of the project at my work start with manipulating the data inside SQL.
 
 Packages: Pandas and cx_Oracle
 
@@ -23,12 +31,12 @@ Step 2 : Create a new Table
 
 Step 3 : Insert values into the table
 
-**Proteinal Next Step** could be to setup the ETL pipeline on AWS to extract the data daily - I will not be doing that step for this project.
+**Potential  Next Step** could be to setup the ETL pipeline on AWS to extract the data daily - I will not be doing that step for this project.
 
 ![](image/SQL_Table.png)
 
 
-# EDA - Python
+# 3. EDA - Python
 
 After Extracting the data, I needed to clean it up so that it was usable for Analysis. I made the following changes and created the following variables:
 
@@ -47,9 +55,9 @@ After Extracting the data, I needed to clean it up so that it was usable for Ana
 ![](image/EDA-5.PNG)
 
 
-# Tabelau (Public)
+# 4. Tabelau (Public)
 
-This second part of the project was to create a Dashboard on Tabelau, which allows users to interact with the Dashboard and take information for themself.
+This second part of the project was to create a Dashboard on Tableau, which allows users to interact with the dashboard and explore the cases around the world.
 
 ![](worldmap.gif)
 

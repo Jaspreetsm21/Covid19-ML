@@ -1,5 +1,5 @@
 # Data Science Covid 19 Analysis: Project Overview
-This Project Extract the data from API to Analysis and Predict Corona virus Cases around the world.
+This project extract the data from API to analyse and predict Corona virus cases around the world.
 
 1 - Extracting the data using **Rest API** method  
 
@@ -8,6 +8,8 @@ This Project Extract the data from API to Analysis and Predict Corona virus Case
 3 - Carried out **EDA** on covid cases and found some meaningful insights.
 
 4 - Created a **Dashboard** inside **Tableau** that allows users to explore the covid cases around the world.
+
+5 - Prediction not completed yet.
 
 # 1. Python REST API to Extract the data 
 

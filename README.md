@@ -57,7 +57,7 @@ After Extracting the data, I needed to clean it up so that it was usable for Ana
 ![](image/EDA-5.PNG)
 
 
-# 4. Tabelau (Public)
+# 4. Tableau (Public)
 
 This second part of the project was to create a Dashboard on Tableau, which allows users to interact with the dashboard and explore the cases around the world.
 

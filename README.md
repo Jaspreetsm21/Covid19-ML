@@ -1,5 +1,5 @@
 # Data Science Covid 19 Analysis: Project Overview
-This project extract the data from API to analyse and predict Corona virus cases around the world.
+This project extract the data from API to analyse and predict Corona virus cases around the world. For Analysis,I was able to  extract all the corona virus cases around the world from 22 January to 15 may 2020. 
 
 1 - Extracting the data using **Rest API** method  
 

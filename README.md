@@ -1,13 +1,13 @@
-# Data Science Covid 19 Analysis: Project Overview
-This project extract the data from API to analyse and predict Corona virus cases around the world. For Analysis,I was able to  extract all the corona virus cases around the world from 22 January to 15 may 2020. 
+# Covid 19 Data Analysis: Project Overview
+This project extracts the data from API to analyse and predict Coronavirus cases around the world. For Analysis, I was able to extract all the coronavirus cases around the world from 22 January to 15 May 2020.
 
-1 - Extracting the data using **Rest API** method  
+1 - Extracting the data using the **Rest API** method  
 
 2 - Load the data on to **Oracle SQL**, which allows data to connect with Tableau server. 
 
-3 - Carried out **EDA** on covid cases and found some meaningful insights.
+3 - Carried out **EDA** on Covid cases and found some meaningful insights.
 
-4 - Created a **Dashboard** inside **Tableau** that allows users to explore the covid cases around the world.
+4 - Created a **Dashboard** inside **Tableau** that allows users to explore Covid cases around the world.
 
 5 - Prediction not completed yet.
 
@@ -19,11 +19,11 @@ Packages: pandas, requests, datetime and json
 
 Data/API Source -  https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest
 
-I was able to connect through API using the requests library without any authentication and then used json library to convert the data into DataFrame. 
+I was able to connect through API using the requests library without any authentication and then used Json library to convert the data into DataFrame. 
 
 #  2. Oracle SQL (ETL)
 
-For the Tableau Dashboard, I was able to load the DataFrame onto Oracle SQL as most of the project at my work start with manipulating the data inside SQL.
+For the Tableau Dashboard, I was able to load the DataFrame onto Oracle SQL as most of the projects at my work start with manipulating the data inside SQL.
 
 Packages: Pandas and cx_Oracle
 
@@ -33,7 +33,7 @@ Step 2 : Create a new Table
 
 Step 3 : Insert values into the table
 
-**Potential  Next Step** could be to setup the ETL pipeline on AWS to extract the data daily - I will not be doing that step for this project.
+**Potential  Next Step** could be to set up the ETL pipeline on AWS to extract the data daily - I will not be doing that step for this project.
 
 ![](image/SQL_Table.png)
 
@@ -42,9 +42,9 @@ Step 3 : Insert values into the table
 
 After Extracting the data, I needed to clean it up so that it was usable for Analysis. I made the following changes and created the following variables:
 
-- Transformed founded ISO date to Standard dates 
+- Changing the data type for date  
 
-- Added new column for daily confirm,active,recovery and death cases. 
+- Added a new column for daily confirm, active, recovery, and death cases. 
 
 ![](image/EDA-1.PNG) 
 
